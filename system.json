@@ -1,0 +1,61 @@
+{
+  "id": "les-chevaliers-de-draem",
+  "title": "Les Chevaliers de Draen",
+  "description": "Les Chevaliers de Draem - Dans le monde de Helunkerra",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "Florleseige",
+      "url": "https://github.com/Florleseige/chevaliers-de-draen",
+      "discord": "florleseige"
+    }
+  ],
+  "scripts": [
+    "scripts/system-script.js"
+  ],
+  "esmodules": [
+    "scripts/system-module.mjs"
+  ],
+  "styles": [
+    "styles/system-styles.css"
+  ],
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "My Monsters",
+      "type": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "My Items",
+      "type": "Item"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Francais",
+      "path": "lang/fr.json"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 10,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.power",
+  "url": "https://github.com/Florleseige/chevaliers-de-draen",
+  "background": "systems/mysystem/assets/splash.webp", // TODO
+  "manifest": "https://your/hosted/system/repo/system.json", // TODO
+  "download": "https://your/packaged/download/archive.zip" // TODO
+}
